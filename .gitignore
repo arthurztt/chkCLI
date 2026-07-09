@@ -3,4 +3,3 @@ workspace.xml
 .env
 # Added by goreleaser init:
 dist/
-.github/

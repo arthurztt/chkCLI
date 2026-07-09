@@ -24,5 +24,6 @@ jobs:
         with:
           version: latest
           args: release --clean
-        env:
-          GITHUB_TOKEN: $
+env:
+  GITHUB_TOKEN: $
+  HOMEBREW_TAP_TOKEN: $

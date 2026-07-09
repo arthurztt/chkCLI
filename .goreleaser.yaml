@@ -31,3 +31,15 @@ changelog:
       - "^docs:"
       - "^test:"
       - "^ci:"
+
+brews:
+  - name: chk
+    repository:
+      owner: arthurztt
+      name: homebrew-tap
+      token: ""
+    homepage: "https://github.com/arthurztt/chk"
+    description: "Checa o status de endpoints HTTP"
+    commit_author:
+      name: goreleaserbot
+      email: bot@goreleaser.com

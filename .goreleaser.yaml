@@ -38,8 +38,9 @@ brews:
     repository:
       owner: arthurztt
       name: homebrew-tap
-      token: ""
-    homepage: "https://github.com/arthurztt/chk"
+      branch: main
+      token: "{{ .Env.HOMEBREW_TAP_TOKEN }}"
+    homepage: "https://github.com/arthurztt/chkCLI"
     description: "Checa o status de endpoints HTTP"
     commit_author:
       name: goreleaserbot

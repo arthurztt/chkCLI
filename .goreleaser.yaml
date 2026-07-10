@@ -5,7 +5,9 @@ before:
     - go mod tidy
 
 builds:
+  - id: chkCLI
   - main: ./...
+    binary: chk
     env:
       - CGO_ENABLED=0
     goos:

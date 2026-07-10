@@ -47,7 +47,7 @@ func run(cmd *cobra.Command, args []string) {
 		elapsed := time.Since(start)
 
 		if err != nil {
-			fmt.Printf("%-8s	%s   	 %s\n", "ERR", elapsed.Round(time.Millisecond), url)
+			fmt.Printf("%-8s	%s   	 %s\n", err, elapsed.Round(time.Millisecond), url)
 			continue
 		}
 		resp.Body.Close()

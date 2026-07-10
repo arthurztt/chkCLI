@@ -1,6 +1,6 @@
 package main
 
-import "github.com/arthurztt/chkCLI.git/cmd"
+import "github.com/arthurztt/chkCLI/cmd"
 
 var version = "dev"
 

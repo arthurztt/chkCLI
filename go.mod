@@ -1,4 +1,4 @@
-module github.com/arthurztt/chkCLI.git
+module github.com/arthurztt/chkCLI
 
 go 1.26.4
 

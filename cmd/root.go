@@ -33,7 +33,7 @@ func SetVersion(v string) {
 }
 
 func init() {
-	rootCmd.Flags().IntVarP(&timeout, "timeout", "t", 5, "timeout em segundos")
+	rootCmd.Flags().IntVarP(&timeout, "timeout", "t", 5, "Aborta a requisição caso demora mais que o timeout definido. (default 5)")
 }
 
 func run(cmd *cobra.Command, args []string) {
